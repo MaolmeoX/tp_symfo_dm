@@ -62,7 +62,7 @@ class Animal
     /**
      * Get id
      *
-     * @return integer 
+     * @return integer
      */
     public function getId()
     {
@@ -85,7 +85,7 @@ class Animal
     /**
      * Get firstname
      *
-     * @return string 
+     * @return string
      */
     public function getFirstname()
     {
@@ -108,7 +108,7 @@ class Animal
     /**
      * Get lastname
      *
-     * @return string 
+     * @return string
      */
     public function getLastname()
     {
@@ -131,7 +131,7 @@ class Animal
     /**
      * Get species
      *
-     * @return \AppBundle\Entity\Species 
+     * @return \AppBundle\Entity\Species
      */
     public function getSpecies()
     {
@@ -164,7 +164,7 @@ class Animal
     /**
      * Get appointments
      *
-     * @return \Doctrine\Common\Collections\Collection 
+     * @return \Doctrine\Common\Collections\Collection
      */
     public function getAppointments()
     {

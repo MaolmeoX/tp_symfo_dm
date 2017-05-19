@@ -44,7 +44,7 @@ class Appointment
 
     /**
      * @ORM\ManyToOne(targetEntity="AppBundle\Entity\Animal", inversedBy="appointments")
-     * @ORM\JoinColumn(name="appointment_id", referencedColumnName="id")
+     * @ORM\JoinColumn(name="animal_id", referencedColumnName="id")
      */
     private $animal;
 
